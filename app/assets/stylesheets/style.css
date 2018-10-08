@@ -1,0 +1,36 @@
+h1,h2,h3 {
+	text-align: center;
+}
+
+h1 {
+	font-size: 3em;
+	margin: 30px;
+}
+
+h3 {
+	font-size: 1.3em;
+	margin: 30px;
+	margin-bottom: 30px;
+}
+
+h3.short-link {
+	font-size: 1.5em;
+}
+
+span.short-link {
+	font-weight: bold;
+}
+
+h2 {
+	margin-top: 60px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+th {
+	text-align: center;
+}
+
+td.cells {
+	text-align: center;
+}
