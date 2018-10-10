@@ -1,5 +1,4 @@
 class ShortenedLinksController < ApplicationController
-	
 	skip_before_action :verify_authenticity_token
 	
 	def index
@@ -20,9 +19,10 @@ class ShortenedLinksController < ApplicationController
 		if @url.save
 			redirect_to shortened_path(@url.short_url)
 		else
-			flash[:error] = "Check error below: "
+			flash[:error] = "Something went wrong. Check error below: "
 			render 'index'
 		end
+		
 	end
 	
 	def shortened
